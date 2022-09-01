@@ -4,7 +4,7 @@
 //3, 1, 35 -> [6, 1, 33]
 
 int[] FillArray(int N, int A, int B)
-{ 
+{
   int[] array = new int[N];
   var random = new Random();
   for (int i = 0; i < N; i++)
